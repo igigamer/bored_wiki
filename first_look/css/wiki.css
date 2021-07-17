@@ -1,0 +1,91 @@
+.container {
+ 
+
+
+
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "profilePic traits traits"
+      "profilePic about-me about-me"
+      "story story story"
+      "appearance appearance appearance"
+      "gallery gallery gallery";
+    
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+    
+}
+  
+.profilePic { 
+      grid-area: profilePic;
+      justify-self: center;
+      
+}
+  
+.traits {
+      grid-area: traits; 
+}
+  
+.about-me { 
+      grid-area: about-me; 
+}
+  
+.story {
+       grid-area: story; 
+        
+}
+  
+.appearance {
+     grid-area: appearance;
+      
+}
+  
+.gallery { 
+      grid-area: gallery;
+      
+     
+}
+  
+
+
+
+#apePicWiki{
+   
+  width:90%;
+	height: auto;
+}
+
+.apeIdWiki{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+}
+
+
+#navTopBar{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.navArrow{
+  display: flex;
+  
+}
+
+
+#wikiPage{
+  background: beige;
+  position: relative;
+  min-height: 100vh;
+}
+
+

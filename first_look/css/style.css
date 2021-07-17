@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 95%;
+}
+
+
+main{
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+
+    
+}
+
+h1{
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+    border-top: 5px solid;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+
+#apeOfTheDay{
+    height: 40vh;
+    width: 40vh;
+    margin: 0 auto;
+    border: 1px solid black;
+    
+}
+
+#navi{
+    text-decoration: none;
+    border: 1px solid black;
+    width: 200px;
+}
+
+#navi ul {
+    list-style: none;
+    padding: 0;
+    
+    
+}
+
+#navi ul li{
+    border: 1px solid;
+  
+    font-size: 25px;
+}
+
+
+#metamask{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.apeImage{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+#edit{
+    display: table;
+    margin: 0 auto;
+
+}
+
+#edit h2{
+    margin: 0;
+    
+}
+
+
+
+
+
+
+
+
+
